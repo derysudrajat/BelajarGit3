@@ -21,5 +21,6 @@ public class Belajar {
 
         System.out.println("Bambank Punya kucing Bunyinya: ");
         bicara();
+        bicara();
     }
 }
