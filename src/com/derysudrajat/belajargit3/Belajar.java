@@ -1,5 +1,6 @@
 package com.derysudrajat.belajargit3;
 import static com.derysudrajat.belajargit3.Manusia.*;
+import static com.derysudrajat.belajargit3.Kucing.*;
 public class Belajar {
     public static void main(String[] args) {
         int umur;
@@ -17,5 +18,8 @@ public class Belajar {
         System.out.println("Nama: "+bejo.getNama()+"\n" +
                 "Umur: "+bejo.getUmur()+"\n" +
                 "Cita-Cita: "+bejo.getJabatan());
+
+        System.out.println("Bambank Punya kucing Bunyinya: ");
+        bicara();
     }
 }
